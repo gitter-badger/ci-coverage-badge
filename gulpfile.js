@@ -6,7 +6,6 @@ var paths = {
   lintFiles: [
     'gulpfile.js',
     'server/**/*.js',
-    '!server/**/*.spec.js',
   ],
 
   documentationFiles: [
