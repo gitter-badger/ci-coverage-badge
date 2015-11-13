@@ -1,25 +1,26 @@
 {
   "author": {
-    "name": "mnpk",
-    "email": "mnncat@gmail.com",
-    "url": "https://github.com/mnpk"
+    "name": "Hutson Betts",
+    "email": "hutson@hyper-expanse.net",
+    "url": "https://github.com/hbetts"
   },
-  "bin": {
-    "jcb": "./server/serve.js"
-  },
+  "bin": {},
   "bugs": "https://github.com/hbetts/ci-coverage-badge/issues",
-  "description": "",
+  "description": "A tiny web server to generate a code coverage badge from one of several CI providers.",
   "engines": {
     "node": "^4.1.0 || ^0.12.0",
     "npm": "^3.0.0 || ^2.1.9"
   },
+  "file": [
+    "server/"
+  ],
   "keywords": [
     "ci",
     "shields.io",
     "coverage",
     "badge"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "main": "./server/index.js",
   "name": "@hbetts/ci-coverage-badge",
   "repository": {
