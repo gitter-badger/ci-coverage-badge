@@ -28,4 +28,4 @@ npm install
 npm start [$PORT]
 ```
 
-When running the server, you must either provide a port as an argument (As shown above), or you must set the `PORT` environmental variable before running the server as shown above. In the latter case, you do not need to pass the port to the server as the server will pull the port value from the `PORT environmental variable.
+When running the server, you must either provide a port as an argument (As shown above), or you must set the `PORT` environmental variable before running the server as shown above. In the latter case, you do not need to pass the port to the server as the server will pull the port value from the `PORT` environmental variable.
