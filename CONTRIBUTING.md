@@ -2,15 +2,11 @@
 
 ## Getting Started
 
-Fork the repository to your own account.
-
-Clone the repository to a suitable location on your local machine.
+Fork the repository to your own account and then clone the repository to a suitable location on your local machine.
 
 ```bash
-git clone https://github.com/hbetts/ci-coverage-badge.git
+git clone [YOUR FORK OF THE PROJECT]
 ```
-
-**Note:** This will clone the entire contents of the repository at the HEAD revision.
 
 To update the project from within the project's folder you can run the following command:
 
@@ -28,10 +24,10 @@ npm install
 
 ### Testing
 
-Next, run the project's tests.
+To run the project's tests, including unit tests, and building documentation, run the following command:
 
 ```bash
-gulp test
+npm test
 ```
 
 ## Feature Requests
