@@ -6,6 +6,11 @@
   },
   "bin": {},
   "bugs": "https://github.com/hbetts/ci-coverage-badge/issues",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "description": "A tiny web server to generate a code coverage badge from one of several CI providers.",
   "engines": {
     "node": "^4.1.0 || ^0.12.0",
@@ -23,6 +28,9 @@
   "license": "Apache-2.0",
   "main": "./server/index.js",
   "name": "@hbetts/ci-coverage-badge",
+  "release": {
+    "verifyConditions": []
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hbetts/ci-coverage-badge.git"
@@ -55,11 +63,5 @@
     "nock": "^3.0.0",
     "semantic-release": "^4.3.5",
     "supertest": "^1.1.0"
-  },
-  "czConfig": {
-    "path": "./node_modules/cz-conventional-changelog"
-  },
-  "release": {
-    "verifyConditions": []
   }
 }
