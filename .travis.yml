@@ -18,4 +18,3 @@ after_success:
   - python travis_after_all.py
   - export $(cat .to_export_back) &> /dev/null
   - ./node_modules/.bin/codecov
-  - npm run semantic-release
