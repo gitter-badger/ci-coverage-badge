@@ -8,12 +8,6 @@ var paths = {
     'server/**/*.js',
   ],
 
-  documentationFiles: [
-    'README.md',
-    'server/**/*.js',
-    '!server/**/*.spec.js',
-  ],
-
   sourceFiles: [
     'server/**/*.js',
     '!server/**/*.spec.js',
@@ -74,19 +68,11 @@ gulp.task('jscs', function() {
 
 /*
  * Generate source documentation.
- * TODO
  */
-gulp.task('jsdoc', ['clean'], function() {
-  var jsdoc = require('gulp-jsdoc');
+gulp.task('apidoc', ['clean'], function(done) {
+  var apidoc = require('apidoc');
 
-  return gulp.src(paths.documentationFiles)
-  .pipe(jsdoc(
-    'docs/',
-    {
-      path: 'ink-docstrap',
-    }
-  ))
-  ;
+  done(apidoc.createDoc({ dest: './docs/', silent: true, src: './server/' }) ? null : false);
 });
 
 /*
@@ -120,4 +106,4 @@ gulp.task('serve', ['default'], function() {
   });
 });
 
-gulp.task('default', ['jscs', 'jshint', 'test', 'jsdoc']);
+gulp.task('default', ['jscs', 'jshint', 'test', 'apidoc']);

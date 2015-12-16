@@ -36,7 +36,7 @@
     "url": "https://github.com/hbetts/ci-coverage-badge.git"
   },
   "scripts": {
-    "docs": "gulp jsdoc",
+    "docs": "gulp apidoc",
     "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post",
     "start": "node ./server/serve.js",
     "test": "gulp"
@@ -47,6 +47,7 @@
     "express": "^4.13.3"
   },
   "devDependencies": {
+    "apidoc": "^0.13.2",
     "chai": "^3.4.0",
     "codecov": "^1.0.1",
     "cz-conventional-changelog": "^1.1.4",
@@ -54,11 +55,9 @@
     "gulp": "^3.4.0",
     "gulp-istanbul": "^0.10.0",
     "gulp-jscs": "^3.0.0",
-    "gulp-jsdoc": "^0.1.4",
     "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.0.0",
     "gulp-watch": "^4.3.5",
-    "jsdoc": "^3.3.3",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.0.1",
     "nock": "^3.0.0",
