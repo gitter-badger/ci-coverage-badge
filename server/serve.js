@@ -17,7 +17,7 @@ if (port) {
 }
 
 function startServer(port) {
-  var server = app.listen(port, function() {
+  var server = app.listen(port, function () {
     winston.info('Listening on port %d...', server.address().port);
   });
 }
