@@ -27,7 +27,7 @@
     "badge"
   ],
   "license": "Apache-2.0",
-  "main": "./server/index.js",
+  "main": "server/index.js",
   "name": "@hbetts/ci-coverage-badge",
   "repository": {
     "type": "git",
