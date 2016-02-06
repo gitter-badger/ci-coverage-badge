@@ -16,9 +16,9 @@ The following CI providers are supported.
 
 Please read the documentation associated with each CI provider to ensure the badger service is setup correctly to serve coverage badges.
 
-## Installation and Usage
+## Installation and Launching
 
-There are two ways to run this coverage badge sever.
+There are two ways to run this coverage badge server.
 
 First, you can install this package, globally as shown below, and call the executable script that's installed in your `$PATH`.
 
