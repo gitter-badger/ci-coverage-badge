@@ -45,7 +45,7 @@
     "express": "^4.13.3"
   },
   "devDependencies": {
-    "apidoc": "^0.14.0",
+    "apidoc": "^0.15.0",
     "chai": "^3.4.0",
     "codecov": "^1.0.1",
     "cz-conventional-changelog": "^1.1.4",
