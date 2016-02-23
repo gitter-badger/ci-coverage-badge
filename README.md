@@ -1,5 +1,7 @@
 # ci-coverage-badge
 
+[![Join the chat at https://gitter.im/hbetts/ci-coverage-badge](https://badges.gitter.im/hbetts/ci-coverage-badge.svg)](https://gitter.im/hbetts/ci-coverage-badge?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/hbetts/ci-coverage-badge.svg?branch=master)](https://travis-ci.org/hbetts/ci-coverage-badge)
 [![codecov.io](https://codecov.io/github/hbetts/ci-coverage-badge/coverage.svg?branch=master)](https://codecov.io/github/hbetts/ci-coverage-badge?branch=master)
 [![Dependency Status](https://david-dm.org/hbetts/ci-coverage-badge.svg)](https://david-dm.org/hbetts/ci-coverage-badge)
